@@ -1,0 +1,52 @@
+## docs/modelo_canvas.md  
+
+```markdown
+# Modelo Canvas – Proyecto Distribuidora de Alimentos  
+
+## Segmentos de Clientes  
+- Hogares que compran alimentos a domicilio  
+- Restaurantes pequeños ubicados dentro del radio de 20 km  
+- Clientes que requieren conservación de la cadena de frío  
+
+## Propuesta de Valor  
+- Entrega rápida y segura  
+- Tarifas claras según monto y distancia  
+- Registro simple con cuenta Gmail  
+- Control de la cadena de frío con alertas  
+
+## Canales  
+- Aplicación móvil Android  
+- Sitio web de apoyo  
+
+## Relación con Clientes  
+- Notificaciones de estado de pedido  
+- Atención personalizada  
+- Seguimiento en tiempo real  
+
+## Fuentes de Ingreso  
+- Venta de productos  
+- Tarifas de despacho según reglas de negocio  
+- Servicios adicionales de valor (ej. despacho express)  
+
+## Recursos Clave  
+- Plataforma móvil Android  
+- Servidores y base de datos  
+- Camiones con sensores IoT  
+- Personal de reparto  
+
+## Actividades Clave  
+- Gestión de pedidos  
+- Monitoreo de temperatura  
+- Cálculo automático de tarifas  
+- Actualización de catálogo  
+
+## Socios Clave  
+- Proveedores de alimentos  
+- Empresas de transporte refrigerado  
+- Google (autenticación con Gmail)  
+
+## Estructura de Costos  
+- Desarrollo y mantenimiento de la app  
+- Infraestructura tecnológica  
+- Logística y combustible  
+- Capacitación del personal  
