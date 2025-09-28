@@ -22,6 +22,7 @@ Las pantallas que forman parte del prototipo son:
 6. Estado de despacho  
 
 ![imagen URL](https://github.com/playdreeon-web/trabajo-semana-7/blob/main/Captura%20de%20pantalla%202025-09-28%20102408.png)
+![imagen URL](https://github.com/playdreeon-web/trabajo-semana-7/blob/main/Captura%20de%20pantalla%202025-09-28%20151250.png)
 
 
 ## Modelo Canvas  
