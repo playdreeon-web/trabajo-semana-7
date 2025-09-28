@@ -32,6 +32,41 @@ El modelo de negocios se encuentra documentado en `/docs/modelo_canvas.md`.
 En la carpeta `/codigo` se incluye un ejemplo en Java que realiza la conversión de grados a radianes, como evidencia del proceso de compilación.  
 
 Para ejecutar:  
-```bash
-javac CalculoRadianes.java
-java CalculoRadianes
+
+// Clase para representar un producto
+data class Producto(
+    val nombre: String,
+    val precio: Int,
+    var cantidad: Int
+)
+
+// Función que calcula el costo de despacho según reglas del caso
+fun calcularDespacho(totalCompra: Int, distanciaKm: Int): Int {
+    return when {
+        totalCompra >= 50000 -> 0
+        totalCompra in 25000..49999 -> 150 * distanciaKm
+        else -> 300 * distanciaKm
+    }
+}
+
+// Ejemplo de uso
+fun main() {
+    // Lista de productos en el carrito
+    val carrito = listOf(
+        Producto("Carne congelada", 11000, 2),
+        Producto("Cerveza", 6000, 3),
+        Producto("Whisky", 25000, 1)
+    )
+
+    // Calcular total de la compra
+    val totalCompra = carrito.sumOf { it.precio * it.cantidad }
+    println("Total compra: $$totalCompra")
+
+    // Supongamos distancia de 12 km
+    val distanciaKm = 12
+    val costoDespacho = calcularDespacho(totalCompra, distanciaKm)
+
+    val totalFinal = totalCompra + costoDespacho
+    println("Costo de despacho: $$costoDespacho")
+    println("Total a pagar: $$totalFinal")
+}
