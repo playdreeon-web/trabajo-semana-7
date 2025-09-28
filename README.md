@@ -1,0 +1,34 @@
+# trabajo-semana-7
+# Proyecto Distribuidora de Alimentos  
+
+Este proyecto corresponde al desarrollo de un prototipo no funcional de aplicación móvil, creado como parte de la Actividad Formativa – Semana 7 del Taller de Aplicaciones (Instituto Profesional AIEP).  
+
+La aplicación busca resolver la necesidad de la empresa distribuidora de alimentos que ofrece despacho a domicilio, aplicando tarifas diferenciadas según el monto de la compra y la distancia del cliente. Además, se considera el monitoreo de la cadena de frío en camiones, lo que permite mantener la calidad de carnes y mariscos.  
+
+## Funcionalidades principales  
+- Registro de usuario utilizando cuenta Gmail  
+- Carrito de compras para agregar productos  
+- Cálculo automático del valor del despacho  
+- Monitoreo de temperatura en camiones refrigerados  
+- Seguimiento del estado del pedido  
+
+## Prototipo no funcional  
+Las pantallas que forman parte del prototipo son:  
+1. Inicio de sesión con Gmail  
+2. Catálogo de productos  
+3. Cálculo automático de despacho  
+4. Monitoreo de temperatura (solo administrador)  
+5. Estado de despacho  
+
+Las imágenes de las pantallas se encuentran en la carpeta `/imagenes`.  
+
+## Modelo Canvas  
+El modelo de negocios se encuentra documentado en `/docs/modelo_canvas.md`.  
+
+## Ejemplo de código  
+En la carpeta `/codigo` se incluye un ejemplo en Java que realiza la conversión de grados a radianes, como evidencia del proceso de compilación.  
+
+Para ejecutar:  
+```bash
+javac CalculoRadianes.java
+java CalculoRadianes
