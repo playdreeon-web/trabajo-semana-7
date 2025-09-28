@@ -21,7 +21,8 @@ Las pantallas que forman parte del prototipo son:
 5. Monitoreo de temperatura 
 6. Estado de despacho  
 
-Las imágenes de las pantallas se encuentran en la carpeta `/imagenes`.  
+![imagen URL](https://github.com/playdreeon-web/trabajo-semana-7/blob/main/Captura%20de%20pantalla%202025-09-28%20102408.png)
+
 
 ## Modelo Canvas  
 El modelo de negocios se encuentra documentado en `/docs/modelo_canvas.md`.  
