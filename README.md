@@ -26,8 +26,8 @@ Las pantallas que forman parte del prototipo son:
 
 
 ## Modelo Canvas  
-El modelo de negocios se encuentra documentado en `/docs/modelo_canvas.md`.  
-
+[El modelo de negocios se encuentra documentado en `/docs/modelo_canvas.md`.  
+](https://github.com/playdreeon-web/trabajo-semana-7/blob/main/modelo%20de%20negocio%20camvas)
 ## Ejemplo de código  
 En la carpeta `/codigo` se incluye un ejemplo en Java que realiza la conversión de grados a radianes, como evidencia del proceso de compilación.  
 
