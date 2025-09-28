@@ -70,3 +70,17 @@ fun main() {
     println("Costo de despacho: $$costoDespacho")
     println("Total a pagar: $$totalFinal")
 }
+ejemplo salida 
+Total compra: $67000
+Costo de despacho: $0
+Total a pagar: $67000
+
+ejemplo monitor de temperatura 
+fun verificarTemperatura(temp: Double) {
+    if (temp > -5) {
+        println(" Alerta: La temperatura es $temp°C, riesgo de romper la cadena de frío")
+    } else {
+        println("Temperatura adecuada: $temp°C")
+    }
+}
+
