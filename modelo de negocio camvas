@@ -1,52 +1,47 @@
-## docs/modelo_canvas.md  
+Desarrollo
 
-```markdown
-# Modelo Canvas – Proyecto Distribuidora de Alimentos  
+a) Modelo Canvas
+Incluye los 9 módulos:
 
-## Segmentos de Clientes  
-- Hogares que compran alimentos a domicilio  
-- Restaurantes pequeños ubicados dentro del radio de 20 km  
-- Clientes que requieren conservación de la cadena de frío  
+Segmentos de clientes: usuarios que compran alimentos y bebidas, especialmente carnes y mariscos que requieren cadena de frío.
 
-## Propuesta de Valor  
-- Entrega rápida y segura  
-- Tarifas claras según monto y distancia  
-- Registro simple con cuenta Gmail  
-- Control de la cadena de frío con alertas  
+Propuesta de valor: aplicación móvil que permite comprar, calcular automáticamente costos de despacho y asegurar calidad en cadena de frío.
 
-## Canales  
-- Aplicación móvil Android  
-- Sitio web de apoyo  
+Canales: aplicación móvil Android (principalmente Oreo) y soporte en Lollipop para el administrador.
 
-## Relación con Clientes  
-- Notificaciones de estado de pedido  
-- Atención personalizada  
-- Seguimiento en tiempo real  
+Relación con clientes: atención personalizada, registro con Gmail, seguimiento de pedido en tiempo real.
 
-## Fuentes de Ingreso  
-- Venta de productos  
-- Tarifas de despacho según reglas de negocio  
-- Servicios adicionales de valor (ej. despacho express)  
+Fuentes de ingreso: ventas de productos + cobro por despacho según distancia.
 
-## Recursos Clave  
-- Plataforma móvil Android  
-- Servidores y base de datos  
-- Camiones con sensores IoT  
-- Personal de reparto  
+Recursos clave: aplicación móvil, sistema de monitoreo de temperatura, catálogo digital de productos, base de datos de usuarios.
 
-## Actividades Clave  
-- Gestión de pedidos  
-- Monitoreo de temperatura  
-- Cálculo automático de tarifas  
-- Actualización de catálogo  
+Actividades clave: desarrollo de la app, integración con GPS para cálculo de distancia, control de temperatura de transporte.
 
-## Socios Clave  
-- Proveedores de alimentos  
-- Empresas de transporte refrigerado  
-- Google (autenticación con Gmail)  
+Socios clave: proveedores de alimentos, empresas de transporte.
 
-## Estructura de Costos  
-- Desarrollo y mantenimiento de la app  
-- Infraestructura tecnológica  
-- Logística y combustible  
-- Capacitación del personal  
+Estructura de costos: desarrollo y mantenimiento de la app, logística de despacho, sensores de temperatura.
+
+b) Prototipo no funcional (capturas de pantalla ya hechas)
+Explica cada pantalla:
+
+Login y registro → ingreso con usuario y contraseña, opción de registrarse.
+
+Catálogo de productos → carnes, licores, bebidas, etc.
+
+Carrito de compras → cálculo automático del costo de despacho según reglas de negocio.
+
+Seguimiento de despacho → muestra estado de envío y temperatura en tiempo real.
+
+c) Repositorio GitHub
+
+Crea un repositorio.
+
+Sube README.md con:
+
+Descripción del proyecto.
+
+Reglas de negocio del despacho.
+
+Capturas del prototipo.
+
+Explicación breve del modelo Canvas.
