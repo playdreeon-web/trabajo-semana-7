@@ -14,11 +14,12 @@ La aplicación busca resolver la necesidad de la empresa distribuidora de alimen
 
 ## Prototipo no funcional  
 Las pantallas que forman parte del prototipo son:  
-1. Inicio de sesión con Gmail  
-2. Catálogo de productos  
-3. Cálculo automático de despacho  
-4. Monitoreo de temperatura (solo administrador)  
-5. Estado de despacho  
+1. Inicio de sesión con Gmail
+2. agrgar un nuevo usuario 
+3. Catálogo de productos  
+4. Cálculo automático de despacho  
+5. Monitoreo de temperatura 
+6. Estado de despacho  
 
 Las imágenes de las pantallas se encuentran en la carpeta `/imagenes`.  
 
